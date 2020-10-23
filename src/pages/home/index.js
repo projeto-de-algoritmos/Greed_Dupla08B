@@ -25,10 +25,60 @@ function Dashboard() {
     // funçao que chama o algoritmo para organizar os agendaentos
 
     const agenda = new Agenda(servicos); // instancia uma nova agenda passando os serviços do dia
-    agenda.melhor_agendamento(); // retona o melhor agendamento possivel
+    const agendamento = agenda.melhor_agendamento(); // retona o melhor agendamento possivel
     console.log(agenda);
 
-    setAgendamento(servicos);
+    setAgendamento(agendamento);
+  }
+
+  function adicionarDadosApp(){
+    let json = [{
+      "cliente": "Arthur",
+      "endereço": "Casa 01",
+      "em_casa_ate": "12:00",
+      "tipo_de_servico": "Trocar o roteador",
+    },
+    {
+        "cliente": "Andre",
+        "endereço": "Casa 02",
+        "em_casa_ate": "17:00",
+        "tipo_de_servico": "Trocar toda a fiação",
+    },
+    
+    {
+        "cliente": "Carol",
+        "endereço": "Casa 03",
+        "em_casa_ate": "11:00",
+        "tipo_de_servico": "Trocar o roteador",
+    },
+    
+    {
+        "cliente": "Sara",
+        "endereço": "Casa 04",
+        "em_casa_ate": "10:00",
+        "tipo_de_servico": "Trocar antena da TV",
+    },
+    
+    {
+        "cliente": "Estela",
+        "endereço": "Casa 07",
+        "em_casa_ate": "11:00",
+        "tipo_de_servico": "Cancelamento do serviço",
+    },
+    
+    {
+        "cliente": "Gabriela",
+        "endereço": "Casa 08",
+        "em_casa_ate": "16:00",
+        "tipo_de_servico": "Resolver problema da internet",
+    },
+    
+    ]
+
+    // json.forEach(element => {
+    //   AdicionaServico(element)
+    // });
+    setServicos(json);
   }
   return (
     <Container>
@@ -59,6 +109,9 @@ function Dashboard() {
             </datalist>
 
             <button type="submit">Adicionar Serviço</button>
+            <button type="button" onClick={adicionarDadosApp}>
+              Adicionar dados do APP
+            </button>
             <button type="button" onClick={OrganizaAgendamento}>
               Organizar Rota
             </button>
