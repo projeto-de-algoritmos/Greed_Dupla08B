@@ -10,20 +10,24 @@ function Dashboard() {
     var data = {
       cliente: cliente,
       endereco: endereco,
-      disponibilidade: disponibilidade,
-      servico: servico,
+      em_casa_ate: disponibilidade,
+      tipo_de_servico: servico,
     };
 
     setServicos([...servicos, data]);
-    console.log(servicos);
   }
 
   function removeServico(index) {
     setServicos(servicos.filter((t) => t != servicos[index]));
   }
-  function OrganizaRota() {
-    const agenda = new Agenda(servicos);
+
+  function OrganizaAgendamento() {
+    // funçao que chama o algoritmo para organizar os agendaentos
+
+    const agenda = new Agenda(servicos); // instancia uma nova agenda passando os serviços do dia
+    agenda.melhor_agendamento(); // retona o melhor agendamento possivel
     console.log(agenda);
+
     setAgendamento(servicos);
   }
   return (
@@ -55,7 +59,7 @@ function Dashboard() {
             </datalist>
 
             <button type="submit">Adicionar Serviço</button>
-            <button type="button" onClick={OrganizaRota}>
+            <button type="button" onClick={OrganizaAgendamento}>
               Organizar Rota
             </button>
           </Form>
@@ -84,10 +88,6 @@ function Dashboard() {
               )}
             </li>
           ))}
-
-          {/* {Agendamento.map((s, i) => (
-            <li key={s}>{s.map((t) => `${t} ,`)}</li>
-          ))} */}
         </Itens>
       </Template>
     </Container>
