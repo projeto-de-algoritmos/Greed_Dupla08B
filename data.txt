@@ -1,3 +1,37 @@
+
+json_aula = [{
+    "tarefa": 1,
+    "duracao_estimada": 3,
+    "em_casa_ate": "00:06",
+},
+{
+    "tarefa": 2,
+    "duracao_estimada": 2,
+    "em_casa_ate": "00:08",
+},
+{
+    "tarefa": 3,
+    "duracao_estimada": 1,
+    "em_casa_ate": "00:09",
+},
+{
+    "tarefa": 4,
+    "duracao_estimada": 4,
+    "em_casa_ate": "00:09",
+},
+{
+    "tarefa": 5,
+    "duracao_estimada": 3,
+    "em_casa_ate": "00:14",
+},
+{
+    "tarefa": 6,
+    "duracao_estimada": 2,
+    "em_casa_ate": "00:15",
+},
+
+]
+
 json = [{
     "cliente": "Arthur",
     "endereço": "Casa 01",
@@ -143,13 +177,14 @@ json = [{
     "endereço": "Casa 21",
     "em_casa_ate": "15:00",
     "tipo_de_servico": "Trocar antena da TV",
-}]
+}
+]
 
 let novo = new Agendamento(json);
+console.log(novo.somaDosHorarios());
 
 console.log(novo.melhor_agendamento());
 // novo.obterDados();
 
-var data = new Date();
 
 // console.log(data.getHours())
