@@ -1,14 +1,14 @@
 {
   "files": {
-    "main.js": "/Greed_Dupla08B/static/js/main.278b7577.chunk.js",
-    "main.js.map": "/Greed_Dupla08B/static/js/main.278b7577.chunk.js.map",
+    "main.js": "/Greed_Dupla08B/static/js/main.d4a9d44e.chunk.js",
+    "main.js.map": "/Greed_Dupla08B/static/js/main.d4a9d44e.chunk.js.map",
     "runtime-main.js": "/Greed_Dupla08B/static/js/runtime-main.e6541ed2.js",
     "runtime-main.js.map": "/Greed_Dupla08B/static/js/runtime-main.e6541ed2.js.map",
     "static/css/2.f45fb83f.chunk.css": "/Greed_Dupla08B/static/css/2.f45fb83f.chunk.css",
     "static/js/2.3d8fa342.chunk.js": "/Greed_Dupla08B/static/js/2.3d8fa342.chunk.js",
     "static/js/2.3d8fa342.chunk.js.map": "/Greed_Dupla08B/static/js/2.3d8fa342.chunk.js.map",
     "index.html": "/Greed_Dupla08B/index.html",
-    "precache-manifest.06ce8f9f8675eedf4512f86836006adb.js": "/Greed_Dupla08B/precache-manifest.06ce8f9f8675eedf4512f86836006adb.js",
+    "precache-manifest.153e23e228181bb16256e77c406f6ec9.js": "/Greed_Dupla08B/precache-manifest.153e23e228181bb16256e77c406f6ec9.js",
     "service-worker.js": "/Greed_Dupla08B/service-worker.js",
     "static/css/2.f45fb83f.chunk.css.map": "/Greed_Dupla08B/static/css/2.f45fb83f.chunk.css.map",
     "static/js/2.3d8fa342.chunk.js.LICENSE.txt": "/Greed_Dupla08B/static/js/2.3d8fa342.chunk.js.LICENSE.txt"
@@ -17,6 +17,6 @@
     "static/js/runtime-main.e6541ed2.js",
     "static/css/2.f45fb83f.chunk.css",
     "static/js/2.3d8fa342.chunk.js",
-    "static/js/main.278b7577.chunk.js"
+    "static/js/main.d4a9d44e.chunk.js"
   ]
 }

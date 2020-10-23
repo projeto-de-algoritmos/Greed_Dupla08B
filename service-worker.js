@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/4.3.1/workbox-sw.js");
 
 importScripts(
-  "/Greed_Dupla08B/precache-manifest.06ce8f9f8675eedf4512f86836006adb.js"
+  "/Greed_Dupla08B/precache-manifest.153e23e228181bb16256e77c406f6ec9.js"
 );
 
 self.addEventListener('message', (event) => {
