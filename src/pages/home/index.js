@@ -1,10 +1,10 @@
 import React, { useState, useEffect } from 'react';
 import { Form, Input } from '@rocketseat/unform';
-import { Container, Formulario, List, Menu } from './styles';
+import { Container, Formulario, List, Menu, Template, Itens } from './styles';
 
 function Dashboard() {
   const [servicos, setServicos] = useState([]);
-
+  const [classificados, setClassificados] = useState([]);
   function AdicionaServico({
     cliente,
     endereco,
@@ -20,6 +20,9 @@ function Dashboard() {
 
   function removeServico(index) {
     setServicos(servicos.filter((t) => t != servicos[index]));
+  }
+  function OrganizaRota() {
+    setClassificados(servicos);
   }
   return (
     <Container>
@@ -37,13 +40,15 @@ function Dashboard() {
             <Input name="servico" type="fieldName" placeholder="Serviço" />
 
             <Input name="tempo" type="fieldName" placeholder="Tempo estimado" />
-            <button type="submit">Menor Caminho</button>
+            <button type="submit">Adicionar Serviço</button>
+            <button type="button" onClick={OrganizaRota}>
+              Organizar Rota
+            </button>
           </Form>
         </Formulario>
       </Menu>
+      <h2>Serviços:</h2>
       <List>
-        {console.log(servicos)}
-
         {servicos.map((s, i) => (
           <button type="button" onClick={() => removeServico(i)}>
             <li key={s}>
@@ -54,6 +59,17 @@ function Dashboard() {
           </button>
         ))}
       </List>
+      <Template>
+        <h1>Rota: </h1>
+        <Itens>
+          {classificados.map((s, i) => (
+            <li key={s}>
+              {console.log(s)}
+              {s.map((t) => `${t} ,`)}
+            </li>
+          ))}
+        </Itens>
+      </Template>
     </Container>
   );
 }

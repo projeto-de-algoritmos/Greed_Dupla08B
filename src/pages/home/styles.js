@@ -3,6 +3,11 @@ import { darken } from 'polished';
 export const Container = styled.div`
   height: 100%;
   background: linear-gradient(-90deg, #7159c1, #335bff);
+  h2 {
+    color: #fff;
+    margin-top: 20px;
+    margin-left: 60px;
+  }
 `;
 
 export const Menu = styled.div`
@@ -17,6 +22,7 @@ export const Formulario = styled.div`
     display: flex;
     flex-direction: column;
     margin-top: 30px;
+    margin-left: 10px;
     input {
       background: rgba(0, 0, 0, 0.1);
       border: 0;
@@ -64,7 +70,7 @@ export const Formulario = styled.div`
 `;
 export const List = styled.ul`
   display: grid;
-  grid-template-columns: repeat(3, 1fr);
+  grid-template-columns: repeat(6, 1fr);
   grid-gap: 10px;
   list-style: none;
   width: 50%;
@@ -74,6 +80,7 @@ export const List = styled.ul`
     border: 1px solid #eee;
     border-radius: 4px;
     margin-top: 10px;
+    color: #fff;
     transition: background 0.2s;
 
     &:hover {
@@ -85,5 +92,31 @@ export const List = styled.ul`
       flex-direction: column;
       align-items: center;
     }
+  }
+`;
+
+export const Template = styled.div`
+  display: block;
+  position: absolute;
+  top: 5%;
+  left: 20%;
+  h1 {
+    color: #fff;
+  }
+`;
+
+export const Itens = styled.ul`
+  display: grid;
+  grid-template-columns: repeat(10, 1fr);
+  grid-gap: 10px;
+  list-style: none;
+  width: 50%;
+  li {
+    background: transparent;
+    padding: 15px 10px;
+    color: #fff;
+    border: 1px solid #eee;
+    border-radius: 4px;
+    margin-top: 10px;
   }
 `;
