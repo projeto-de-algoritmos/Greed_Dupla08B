@@ -1,187 +1,155 @@
-{
+json = [{
     "cliente": "Arthur",
     "endereço": "Casa 01",
-    "horario_disponivel": "8-12",
-    "servico": "Trocar o roteador",
-    "tempo_estimado": 15,
-    "termino_estimado": "08:15"
-}
+    "em_casa_ate": "12:00",
+    "tipo_de_servico": "Trocar o roteador",
+},
+
 {
     "cliente": "Andre",
     "endereço": "Casa 02",
-    "horario_disponivel": "13-17",
-    "servico": "Trocar toda a fiação",
-    "tempo_estimado": 120,
-    "termino_estimado": "17:00"
-}
+    "em_casa_ate": "17:00",
+    "tipo_de_servico": "Trocar toda a fiação",
+},
 
 {
     "cliente": "Carol",
     "endereço": "Casa 03",
-    "horario_disponivel": "10-11",
-    "servico": "Trocar o roteador",
-    "tempo_estimado": 15,
-    "termino_estimado": "10:15"
-}
+    "em_casa_ate": "11:00",
+    "tipo_de_servico": "Trocar o roteador",
+},
 
 {
     "cliente": "Sara",
     "endereço": "Casa 04",
-    "horario_disponivel": "9-10",
-    "servico": "Trocar antena da TV",
-    "tempo_estimado": 30,
-    "termino_estimado": "09:30"
-}
+    "em_casa_ate": "10:00",
+    "tipo_de_servico": "Trocar antena da TV",
+},
 
 {
     "cliente": "Matheus",
     "endereço": "Casa 05",
-    "horario_disponivel": "17-20",
-    "servico": "Trocar antena da TV",
-    "tempo_estimado": 30,
-    "termino_estimado": "17:30"
-}
+    "em_casa_ate": "20:00",
+    "tipo_de_servico": "Instalar ponto adicional",
+},
 
 {
     "cliente": "Vinicius",
     "endereço": "Casa 06",
-    "horario_disponivel": "14-18",
-    "servico": "Trocar toda a fiação",
-    "tempo_estimado": 120,
-    "termino_estimado": "16:00"
-}
+    "em_casa_ate": "18:00",
+    "tipo_de_servico": "Trocar toda a fiação",
+},
 
 {
     "cliente": "Estela",
     "endereço": "Casa 07",
-    "horario_disponivel": "8-11",
-    "servico": "Cancelamento do serviço",
-    "tempo_estimado": 60,
-    "termino_estimado": "09:00"
-}
+    "em_casa_ate": "11:00",
+    "tipo_de_servico": "Cancelamento do serviço",
+},
 
 {
     "cliente": "Gabriela",
     "endereço": "Casa 08",
-    "horario_disponivel": "10-16",
-    "servico": "Resolver problema da internet",
-    "tempo_estimado": 60,
-    "termino_estimado": "11:00"
-}
+    "em_casa_ate": "16:00",
+    "tipo_de_servico": "Resolver problema da internet",
+},
 
 {
     "cliente": "Marco",
     "endereço": "Casa 09",
-    "horario_disponivel": "8-18",
-    "servico": "Cancelamento do serviço",
-    "tempo_estimado": 60,
-    "termino_estimado": "09:00"
-}
+    "em_casa_ate": "18:00",
+    "tipo_de_servico": "Cancelamento do serviço",
+},
 
 {
     "cliente": "Daniel",
     "endereço": "Casa 10",
-    "horario_disponivel": "11-12",
-    "servico": "Resolver problema da internet",
-    "tempo_estimado": 60,
-    "termino_estimado": "12:00"
-}
+    "em_casa_ate": "12:00",
+    "tipo_de_servico": "Resolver problema da internet",
+},
 
 {
     "cliente": "Lucas",
     "endereço": "Casa 11",
-    "horario_disponivel": "15-18",
-    "servico": "Trocar o roteador",
-    "tempo_estimado": 15,
-    "termino_estimado": "15:15"
-}
+    "em_casa_ate": "18:00",
+    "tipo_de_servico": "Instalar ponto adicional",
+},
 
 {
     "cliente": "Maria",
     "endereço": "Casa 12",
-    "horario_disponivel": "14-16",
-    "servico": "Cancelamento do serviço",
-    "tempo_estimado": 60,
-    "termino_estimado": "15:00"
-}
+    "em_casa_ate": "16:00",
+    "tipo_de_servico": "Trocar antena da TV",
+},
 
 {
     "cliente": "Licia",
     "endereço": "Casa 13",
-    "horario_disponivel": "10-18",
-    "servico": "Trocar toda a fiação",
-    "tempo_estimado": 120,
-    "termino_estimado": "12:00"
-}
+    "em_casa_ate": "18:00",
+    "tipo_de_servico": "Trocar toda a fiação",
+},
 
 {
     "cliente": "Lucia",
     "endereço": "Casa 14",
-    "horario_disponivel": "8-10",
-    "servico": "Trocar o roteador",
-    "tempo_estimado": 30,
-    "termino_estimado": "08:30"
-}
+    "em_casa_ate": "10:00",
+    "tipo_de_servico": "Trocar o roteador",
+},
 
 {
     "cliente": "Danilo",
     "endereço": "Casa 15",
-    "horario_disponivel": "16-19",
-    "servico": "Cancelamento do serviço",
-    "tempo_estimado": 60,
-    "termino_estimado": "17:00"
-}
+    "em_casa_ate": "19:00",
+    "tipo_de_servico": "Cancelamento do serviço",
+},
 
 {
     "cliente": "Wesley",
     "endereço": "Casa 16",
-    "horario_disponivel": "11-16",
-    "servico": "Trocar toda a fiação",
-    "tempo_estimado": 120,
-    "termino_estimado": "13:00"
-}
+    "em_casa_ate": "16:00",
+    "tipo_de_servico": "Instalar ponto adicional",
+},
 
 {
     "cliente": "Vitor",
     "endereço": "Casa 17",
-    "horario_disponivel": "8-11",
-    "servico": "Trocar o roteador",
-    "tempo_estimado": 15,
-    "termino_estimado": "08:15"
-}
+    "em_casa_ate": "11:00",
+    "tipo_de_servico": "Trocar o roteador",
+},
 
 {
     "cliente": "Camila",
     "endereço": "Casa 18",
-    "horario_disponivel": "14-17",
-    "servico": "Cancelamento",
-    "tempo_estimado": 60,
-    "termino_estimado": "15:00"
-}
+    "em_casa_ate": "17:00",
+    "tipo_de_servico": "Cancelamento do serviço",
+},
 
 {
     "cliente": "Aloisio",
     "endereço": "Casa 19",
-    "horario_disponivel": "9-12",
-    "servico": "Trocar antena da TV",
-    "tempo_estimado": 30,
-    "termino_estimado": "09:30"
-}
+    "em_casa_ate": "12:00",
+    "tipo_de_servico": "Instalar ponto adicional",
+},
 
 {
     "cliente": "Lilian",
     "endereço": "Casa 20",
-    "horario_disponivel": "12-16",
-    "servico": "Cancelamento",
-    "tempo_estimado": 60,
-    "termino_estimado": "13:00"
-}
+    "em_casa_ate": "16:00",
+    "tipo_de_servico": "Cancelamento do serviço",
+},
 
 {
     "cliente": "Marcia",
     "endereço": "Casa 21",
-    "horario_disponivel": "11-15",
-    "servico": "Trocar antena da TV",
-    "tempo_estimado": 30,
-    "termino_estimado": "11:30"
-}
+    "em_casa_ate": "15:00",
+    "tipo_de_servico": "Trocar antena da TV",
+}]
+
+let novo = new Agendamento(json);
+
+console.log(novo.melhor_agendamento());
+// novo.obterDados();
+
+var data = new Date();
+
+// console.log(data.getHours())
