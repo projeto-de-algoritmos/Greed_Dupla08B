@@ -1,0 +1,190 @@
+
+json_aula = [{
+    "tarefa": 1,
+    "duracao_estimada": 3,
+    "em_casa_ate": "00:06",
+},
+{
+    "tarefa": 2,
+    "duracao_estimada": 2,
+    "em_casa_ate": "00:08",
+},
+{
+    "tarefa": 3,
+    "duracao_estimada": 1,
+    "em_casa_ate": "00:09",
+},
+{
+    "tarefa": 4,
+    "duracao_estimada": 4,
+    "em_casa_ate": "00:09",
+},
+{
+    "tarefa": 5,
+    "duracao_estimada": 3,
+    "em_casa_ate": "00:14",
+},
+{
+    "tarefa": 6,
+    "duracao_estimada": 2,
+    "em_casa_ate": "00:15",
+},
+
+]
+
+json = [{
+    "cliente": "Arthur",
+    "endereço": "Casa 01",
+    "em_casa_ate": "12:00",
+    "tipo_de_servico": "Trocar o roteador",
+},
+
+{
+    "cliente": "Andre",
+    "endereço": "Casa 02",
+    "em_casa_ate": "17:00",
+    "tipo_de_servico": "Trocar toda a fiação",
+},
+
+{
+    "cliente": "Carol",
+    "endereço": "Casa 03",
+    "em_casa_ate": "11:00",
+    "tipo_de_servico": "Trocar o roteador",
+},
+
+{
+    "cliente": "Sara",
+    "endereço": "Casa 04",
+    "em_casa_ate": "10:00",
+    "tipo_de_servico": "Trocar antena da TV",
+},
+
+{
+    "cliente": "Matheus",
+    "endereço": "Casa 05",
+    "em_casa_ate": "20:00",
+    "tipo_de_servico": "Instalar ponto adicional",
+},
+
+{
+    "cliente": "Vinicius",
+    "endereço": "Casa 06",
+    "em_casa_ate": "18:00",
+    "tipo_de_servico": "Trocar toda a fiação",
+},
+
+{
+    "cliente": "Estela",
+    "endereço": "Casa 07",
+    "em_casa_ate": "11:00",
+    "tipo_de_servico": "Cancelamento do serviço",
+},
+
+{
+    "cliente": "Gabriela",
+    "endereço": "Casa 08",
+    "em_casa_ate": "16:00",
+    "tipo_de_servico": "Resolver problema da internet",
+},
+
+{
+    "cliente": "Marco",
+    "endereço": "Casa 09",
+    "em_casa_ate": "18:00",
+    "tipo_de_servico": "Cancelamento do serviço",
+},
+
+{
+    "cliente": "Daniel",
+    "endereço": "Casa 10",
+    "em_casa_ate": "12:00",
+    "tipo_de_servico": "Resolver problema da internet",
+},
+
+{
+    "cliente": "Lucas",
+    "endereço": "Casa 11",
+    "em_casa_ate": "18:00",
+    "tipo_de_servico": "Instalar ponto adicional",
+},
+
+{
+    "cliente": "Maria",
+    "endereço": "Casa 12",
+    "em_casa_ate": "16:00",
+    "tipo_de_servico": "Trocar antena da TV",
+},
+
+{
+    "cliente": "Licia",
+    "endereço": "Casa 13",
+    "em_casa_ate": "18:00",
+    "tipo_de_servico": "Trocar toda a fiação",
+},
+
+{
+    "cliente": "Lucia",
+    "endereço": "Casa 14",
+    "em_casa_ate": "10:00",
+    "tipo_de_servico": "Trocar o roteador",
+},
+
+{
+    "cliente": "Danilo",
+    "endereço": "Casa 15",
+    "em_casa_ate": "19:00",
+    "tipo_de_servico": "Cancelamento do serviço",
+},
+
+{
+    "cliente": "Wesley",
+    "endereço": "Casa 16",
+    "em_casa_ate": "16:00",
+    "tipo_de_servico": "Instalar ponto adicional",
+},
+
+{
+    "cliente": "Vitor",
+    "endereço": "Casa 17",
+    "em_casa_ate": "11:00",
+    "tipo_de_servico": "Trocar o roteador",
+},
+
+{
+    "cliente": "Camila",
+    "endereço": "Casa 18",
+    "em_casa_ate": "17:00",
+    "tipo_de_servico": "Cancelamento do serviço",
+},
+
+{
+    "cliente": "Aloisio",
+    "endereço": "Casa 19",
+    "em_casa_ate": "12:00",
+    "tipo_de_servico": "Instalar ponto adicional",
+},
+
+{
+    "cliente": "Lilian",
+    "endereço": "Casa 20",
+    "em_casa_ate": "16:00",
+    "tipo_de_servico": "Cancelamento do serviço",
+},
+
+{
+    "cliente": "Marcia",
+    "endereço": "Casa 21",
+    "em_casa_ate": "15:00",
+    "tipo_de_servico": "Trocar antena da TV",
+}
+]
+
+let novo = new Agendamento(json);
+console.log(novo.somaDosHorarios());
+
+console.log(novo.melhor_agendamento());
+// novo.obterDados();
+
+
+// console.log(data.getHours())
