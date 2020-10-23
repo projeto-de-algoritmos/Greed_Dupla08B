@@ -1,6 +1,6 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "329ce8f9688faab46e7adad3961daf12",
+    "revision": "2d3bcf3accfb854b70b024c702649701",
     "url": "/Greed_Dupla08B/index.html"
   },
   {
@@ -16,8 +16,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/Greed_Dupla08B/static/js/2.3d8fa342.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "39be682afed9b042d20b",
-    "url": "/Greed_Dupla08B/static/js/main.278b7577.chunk.js"
+    "revision": "e6081bd88606ab9c33c3",
+    "url": "/Greed_Dupla08B/static/js/main.d4a9d44e.chunk.js"
   },
   {
     "revision": "a1a14119f9c765d7b69c",
