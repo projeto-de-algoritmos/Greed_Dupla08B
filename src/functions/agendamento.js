@@ -62,11 +62,22 @@ export default class Agendamento {
 
   melhor_agendamento() {
     this.dados.sort(function (a, b) {
-      return a.em_casa_ate < b.em_casa_ate
-        ? -1
-        : a.em_casa_ate > b.em_casa_ate
-        ? 1
-        : 0;
+
+      if(a.em_casa_ate < b.em_casa_ate) {
+        return -1;
+      }
+
+      else if(a.em_casa_ate > b.em_casa_ate) {
+        return 1;
+      }
+
+      else { // se os horarios "em_casa_ate (deadline)" forem iguais, as tarefas de tempo estimado menor vem à frente.
+        console.log(a, b)
+        if(a.duracao_estimada < b.duracao_estimada) {
+          return -1;
+        }
+      }
+
     });
 
     let tempo_inicio = 480; // 480 minutos = 8 horas
