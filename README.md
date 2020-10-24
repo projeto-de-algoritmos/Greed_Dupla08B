@@ -1,5 +1,5 @@
 
-# NomedoProjeto
+# Agendamento de Serviços
 
 **Número da Lista**: 03<br>
 **Conteúdo da Disciplina**: Greed<br>
@@ -11,10 +11,24 @@
 | 16/0112974  | Arthur Rodrigues |
 
 ## Sobre 
+
+[O projeto se encontra aqui](https://projeto-de-algoritmos.github.io/Greed_Dupla08B)
+
+[O video se encontra aqui](https://youtu.be/szRVWMYI2JE)
 O projeto consiste em ajudar um trabalhador de uma empresa de serviços de internet, televisão e telefone. Essa ajuda virá por meio de um algoritmo ambicioso que formará o melhor agendamento de tarefas de manutenção, entre outras, com o menor atraso possível.
 
 ## Screenshots
-Adicione 3 ou mais screenshots do projeto em funcionamento.
+
+Tela inicial do projeto
+![tela_inicial](media/tela_inicial.png)
+
+
+Apertando em Adicionar
+![tela_puxar_dados](media/puxar_dados.png)
+
+
+Tela inicial do projeto
+![tela_agendado](media/agendado.png)
 
 ## Instalação 
 **Linguagem**: Javascript<br>
@@ -23,13 +37,13 @@ Adicione 3 ou mais screenshots do projeto em funcionamento.
 
 Primeiramente utilizaremos a ferramenta [git](https://git-scm.com/downloads) que é necessária para clonar o repositório:
 
-    $ git clone https://github.com/projeto-de-algoritmos/Grafos01_Caminhos_Git
+    $ git clone https://github.com/projeto-de-algoritmos/Greed_Dupla08B
 
 Após clonar o repositório, é preciso acessar a pasta raiz do projeto:
 
     Exemplo para o linux:
 
-    $ cd Grafos01_Caminhos_Git
+    $ cd Greed_Dupla08B
 
 Para rodar o projeto é necessário ter instalado o [yarn](https://classic.yarnpkg.com/pt-BR/docs/install/#debian-stable) na versão estável mais atual.
 
@@ -56,8 +70,7 @@ Também existe uma opção que "carrega" dados provindos de um app da empresa qu
 
 Os dados vindos da opção acima obviamente são falsos, foi colocado somente para agilizar um teste de melhor agendamento na aplicação.
 
-## Outros 
-Quaisquer outras informações sobre seu projeto podem ser descritas abaixo.
+## Outros
 
 
 
